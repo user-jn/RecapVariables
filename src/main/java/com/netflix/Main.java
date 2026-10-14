@@ -1,6 +1,6 @@
 package com.netflix;
 
-
+import java.util.ArrayList;
 
 public class Main {
 
@@ -49,7 +49,10 @@ public class Main {
     System.out.println("Hours Per Month: " + hoursPerMonth);
     System.out.println("Interesting Fact: " + interestingFact);
 
-
+        ArrayList<String> movies = new ArrayList<>();
+        movies.add("Star Wars");
+        movies.add("The Godfather");
+        System.out.println(movies);
 
 
     }
