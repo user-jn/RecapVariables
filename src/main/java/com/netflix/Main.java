@@ -24,7 +24,7 @@ public class Main {
     int timesWatched = 11;
 
     // Favorite streaming platform
-    String streamingPlatforms = "HBO";
+    String streamingPlatform = "HBO";
 
     // Hours per week watching movie or series
     double hoursPerWeek = 6.5;
@@ -38,7 +38,16 @@ public class Main {
     // Bonus: Interesting fact
     String interestingFact = "I love golf";
 
-
+    System.out.println("Favorite Movie Title: " + favoriteMovie);
+    System.out.println("Favorite Movie Genre: " + favoriteGenre);
+    System.out.println("Release Year: " + releaseYear);
+    System.out.println("Movie Duration: " + durationMinutes + " minutes");
+    System.out.println("Times Watched: " + timesWatched);
+    System.out.println("Favorite Streaming Platform: " + streamingPlatform);
+    System.out.println("Hours Per Week: " + hoursPerWeek);
+    System.out.println("Movie Rating: " + movieRating + "/10");
+    System.out.println("Hours Per Month: " + hoursPerMonth);
+    System.out.println("Interesting Fact: " + interestingFact);
 
 
 
