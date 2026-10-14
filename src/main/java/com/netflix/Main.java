@@ -50,6 +50,8 @@ public class Main {
     System.out.println("Interesting Fact: " + interestingFact);
 
         ArrayList<String> movies = new ArrayList<>();
+        movies.add("Avatar");
+        movies.add("Titanic");
         movies.add("Star Wars");
         movies.add("The Godfather");
         System.out.println(movies);
